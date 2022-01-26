@@ -1,0 +1,194 @@
+/* font-family: 'Italianno', cursive;
+font-family: 'Nova Round', cursive;
+font-family: 'Roboto', sans-serif; */
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  */
+
+/*  */
+
+/* navbar */
+
+.navbar-bg {
+  background-color: rgba(47, 107, 104, 0.5);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-shadow: black 0 1px 3px;
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+  transform: scale(1.01);
+  transition: 0.04s;
+}
+
+/* end navbar */
+
+/* banner start */
+
+.banner-site {
+  padding-top: 50px;
+  background-image: url("pic/Picsart_22-01-25_23-24-16-824.png");
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.banner-img {
+  width: 300px;
+}
+
+.title-text1::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+}
+.title-text2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Nova Round", cursive;
+}
+
+.title-text3 {
+  font-size: 1rem;
+}
+
+.title-button .btn-primary {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+.title-button .btn-primary {
+  background-image: linear-gradient(rgb(43, 86, 226), rgb(0, 255, 255));
+  color: white;
+}
+
+.title-button .btn-primary:hover {
+  background-image: linear-gradient(blueviolet, rgb(255, 0, 179));
+  color: white;
+}
+
+/* about me */
+
+.about-text3 {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: 7px;
+}
+
+/* brand start */
+
+.brand-ii i {
+  text-shadow: rgba(0, 0, 0, 0.507) 0 1px 2px;
+  color: rgba(28, 40, 201, 0.76);
+}
+.brand-ii i:hover {
+  color: rgb(225, 0, 255);
+}
+.exp-10 {
+  font-weight: bolder;
+  font-family: "Nova Round", cursive;
+}
+
+/* service card */
+
+.services-site .card {
+  background-color: antiquewhite;
+}
+.services-site .card:hover {
+  background-color: rgb(232, 250, 215);
+  box-shadow: 0 5px 10px;
+}
+
+/* project */
+
+.project-img {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.pbtn{
+  top: 12vh;
+}
+
+
+.pbtn .nav-link {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.pbtn .nav-link:hover {
+  transform: scale(1.01);
+  transition: 0.04s;
+}
+
+
+
+
+/* review */
+.carousel-2{
+  box-shadow: 0 5px 10px;
+}
+
+.review-img{
+  width: 200px;
+  height: 200px;
+  border: chartreuse 1px solid;
+  margin-top: 10px;
+}
+
+/* subscribe */
+.subscribe-part{
+  background-image: linear-gradient(to right top,rgb(0, 110, 255),rgb(174, 0, 255));
+  color: white;
+}
+.subscribe-part p{
+  text-align: justify;
+  padding: 10px;
+}
+
+/* footer */
+.fb{
+  color: #3b5998;
+  text-decoration: none;
+}
+.yt{
+  color: #c4302b;
+  text-decoration: none;
+}
+.tw{
+  color: #00acee;
+  text-decoration: none;
+}
+.gt{
+  color: orangered;
+  text-decoration: none;
+
+}
+/*  */
+.f-p{
+  font-size: 10px;
+  font-weight: bolder;
+}
+/*  */
