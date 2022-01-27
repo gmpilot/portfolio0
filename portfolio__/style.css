@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url('pic/nasa-Q1p7bh3SHj8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: rgba(0, 47, 255, 0.3);
+}
+
+.navimg-style{
+    width:60px;
+}
+
+/* navend */
+
+.welcome{
+    color: white;
+    font-family: 'Nova Round', cursive;
+}
+
+/* carosole */
+.caro-style{
+    width: auto;
+    height: 300px;
+    margin: auto;
+}
+
+/* banner img */
+.baner-img{
+    width: 35%;
+}
+
+.shadow-all{
+    box-shadow: black 0 0 10px;
+    text-shadow: black 0 0 10px;
+}
+
+
+
+
+/* /alert */
+.alrtimg{
+    width: 400px;
+}
+
+@media screen and (min-width:768px){
+    .alrtimg{
+        width:100%;
+    }
+    
+    .baner-img{
+        width: 60%;
+    }
+    
+}
+
+
+
+/* main */
+main{
+    background-color: rgb(255, 242, 182);
+
+}
+
+.feature-row{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-col{
+    border-radius: 5px;
+    border: deeppink 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.feature-col:hover{
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.feature-icon{
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+    margin: 3px;
+}
+
+/* Feature end */
+
+section h3{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* /about start */
+.font-weight-bolder{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Nova Round', cursive;
+}
+
+.hr-hd-style{
+    border: 5px dotted rgb(0, 0, 0);
+    background-color: white;
+    margin: 3px auto;
+    width: 80px;
+    border-bottom: none;
+}
+
+
+.personal-info p{
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight:normal;
+}
+
+
+/* service */
+
+.card-service:hover{
+    box-shadow: black 0 0 10px;
+    transition: 00.4s;
+    transform: scale(1.05);
+}
+
+/* review */
+
+.review-img{
+    width: 200px;
+    height: 200px;
+    border: chartreuse 1px solid;
+    margin-top: 10px;
+}
+
+/* footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-icon{
+    padding: 5px;
+    font-size: 200%;
+}
+
+/* contact */
+
