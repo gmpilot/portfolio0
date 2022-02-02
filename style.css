@@ -29,10 +29,9 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(0, 0, 0);
   text-shadow: none;
-  transform: scale(1.01);
   transition: 0.04s;
+  color: black;
 }
 
 /* end navbar */
@@ -110,11 +109,12 @@ body {
 
 /* service card */
 
-.services-site .card {
-  background-color: antiquewhite;
+.services-site .card1 {
+  background-color: darkblue;
+  color: white;
 }
-.services-site .card:hover {
-  background-color: rgb(232, 250, 215);
+.services-site .card1:hover {
+  background-color: darkcyan;
   box-shadow: 0 5px 10px;
 }
 
@@ -126,10 +126,10 @@ body {
   margin: 10px auto;
 }
 
-.pbtn{
+.pbtn {
   top: 12vh;
+  background-color: white;
 }
-
 
 .pbtn .nav-link {
   color: rgb(0, 0, 0);
@@ -143,15 +143,12 @@ body {
   transition: 0.04s;
 }
 
-
-
-
 /* review */
-.carousel-2{
+.carousel-2 {
   box-shadow: 0 5px 10px;
 }
 
-.review-img{
+.review-img {
   width: 200px;
   height: 200px;
   border: chartreuse 1px solid;
@@ -159,36 +156,45 @@ body {
 }
 
 /* subscribe */
-.subscribe-part{
-  background-image: linear-gradient(to right top,rgb(0, 110, 255),rgb(174, 0, 255));
+.subscribe-part {
+  background-image: linear-gradient(
+    to right top,
+    rgb(0, 110, 255),
+    rgb(174, 0, 255)
+  );
   color: white;
 }
-.subscribe-part p{
+.subscribe-part p {
   text-align: justify;
   padding: 10px;
 }
 
 /* footer */
-.fb{
+.fb {
   color: #3b5998;
   text-decoration: none;
 }
-.yt{
+.yt {
   color: #c4302b;
   text-decoration: none;
 }
-.tw{
+.tw {
   color: #00acee;
   text-decoration: none;
 }
-.gt{
+.gt {
   color: orangered;
   text-decoration: none;
-
 }
 /*  */
-.f-p{
+.f-p {
   font-size: 10px;
   font-weight: bolder;
 }
 /*  */
+
+/* clock */
+.dclock {
+  background-color: black;
+  color: white;
+}
