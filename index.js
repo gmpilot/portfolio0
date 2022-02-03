@@ -6,13 +6,22 @@ console.log("Owner Golam Mahadi Pilot");
 
 setInterval(() => {
   const today = new Date();
-  let h = today.getHours();
+  let h = (today.getHours() + 24) % 12;
   let m = today.getMinutes();
   let s = today.getSeconds();
+  let ampm;
+  
+    if (today.getHours() >= 12) {
+    ampm = "PM";
+  } else {
+    ampm = "AM";
+  }
+  
   m = checkTime(m);
   s = checkTime(s);
+  h = checkTime(h);
 
-  document.getElementById("dclock").innerHTML = h + ":" + m + ":" + s;
+  document.getElementById("dclock").innerHTML = h + ":" + m + ":" + s + " "+ampm;
 }, 1000);
 
 function checkTime(i) {
